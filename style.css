@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.board img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.board img:hover {
+    transform: scale(1.1);
+}
